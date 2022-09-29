@@ -3,7 +3,7 @@ Function powers(a as Integer,b as Integer) As Integer
     dim n as Integer
     if b=0 then return 1
     if b=1 then return a
-    for n = 1 to b
+    for n = 1 to b-1
          ii=ii*a
     next
     Return ii
